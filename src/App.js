@@ -10,7 +10,7 @@ const Welcome = () => {
   return (
     <div>
       <button onClick={() => changeLanguage("en")}>En</button>
-      <button onClick={() => changeLanguage("de")}>Es</button>
+      <button onClick={() => changeLanguage("ko")}>Ko</button>
       <hr />
       <Trans
         i18nKey="description.part1
@@ -18,7 +18,7 @@ const Welcome = () => {
       >
         To get started, edit <code>src/App.js</code> and save to reload
       </Trans>
-      <div>{t("description.part2")}</div>
+      <div>{t("description.part1")}</div>
     </div>
   );
 };
